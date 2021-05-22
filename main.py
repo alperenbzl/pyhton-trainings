@@ -1,4 +1,6 @@
 import basak_math
 
-sonuc = basak_math.Topla(3, 8)
-print(sonuc)
+a = basak_math.Topla(3, 8)
+b = basak_math.Topla("3", "8")
+print(a)
+print(b)
