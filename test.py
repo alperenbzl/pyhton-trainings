@@ -13,13 +13,11 @@ e=eren_math.bolme(10,5)
 print(e)
 
 
-
-
-
-
-
-
-
+a1 = eren_math.topla("1","2")
+# a11 = eren_math.topla("a","b")
+a2=eren_math.cıkarma("1","2")
+a3=eren_math.bolme("1","2")
+a5=eren_math.carpma("1","2","3")
   
 
 
