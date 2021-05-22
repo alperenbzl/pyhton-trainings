@@ -14,5 +14,5 @@ def Carpma(degisken1, degisken2):
 
 
 # bolme
-def Bolme(degisken2, degisken1):
+def Bolme(degisken1, degisken2):
     return int(degisken1) / int(degisken2)
