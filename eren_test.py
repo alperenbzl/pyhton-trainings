@@ -22,10 +22,10 @@ a5 = eMath.carpma("1", "2", "3")
 
 num1 = eMath.bolme(22, 7)
 
-res = math.pow(2,3)
-f=math.factorial(3)
+res = math.pow(2, 3)
+f = math.factorial(3)
 
-islem1 = eMath.hesapla(3,"*",5)
-islem2 = eMath.hesapla(4,"/",12)
-islem3 = eMath.hesapla(100,"k",14) 
-islem4 =eMath.hesapla(10,"b")
+islem1 = eMath.hesapla(3, "*", 5)
+islem2 = eMath.hesapla(4, "/", 12)
+islem3 = eMath.hesapla(100, "k", 14)
+islem4 = eMath.hesapla(10, "b")
