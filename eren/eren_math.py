@@ -1,5 +1,8 @@
 # toplama
 
+from math import factorial, sqrt
+
+
 def hesapla(p1, operator, p2=0):
     result = 0
     if operator == "+":
@@ -14,6 +17,17 @@ def hesapla(p1, operator, p2=0):
         result = p1*p1
     if(operator == "b"):
         result = 1/p1
+    if(operator=="z"):
+        result = sqrt(p1)
+    if(operator=="d"):
+        result = abs(p1)
+    if(operator=="x"):
+        result = pow(p1,p2)
+        
+
+        
+    
+
     return result
 
 
