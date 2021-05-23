@@ -28,3 +28,8 @@ fsonuc1 = Emath.faktoriyel(0)  # 1
 fsonuc2 = Emath.faktoriyel(3)  # 3*2*1
 fsonuc3 = Emath.faktoriyel(6)  # 6*5*4*3*2*1
 fsonuc4 = Emath.factorial_recursive(6)
+
+fib1 = Emath.fibonacci(0)  # 0 0
+fib2 = Emath.fibonacci(3)  # 0,1,1 1
+fib3 = Emath.fibonacci(6)  # 0,1,1,2,3,5 5
+fib4 = Emath.fibonacci(9)  # 0,1,1,2,3,5,8,13,21 21
