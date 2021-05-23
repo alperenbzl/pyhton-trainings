@@ -49,4 +49,31 @@ def bolme(k1, k2):
 # factorial
 def faktoriyel(sayi):
     # faktoriyel hesapla
+    if sayi == 0:
+        return 1
+    toplam = 1
+
+    for i in range(sayi, 0, -1):
+        toplam = i * toplam
+        print(toplam)
+    return toplam
+
+
+def factorial_recursive(n):
+    # Base case: 1! = 1
+    if n == 1:
+        return 1
+
+    # Recursive case: n! = n * (n-1)!
+    else:
+        return n * factorial_recursive(n - 1)
+
+
+def fibonacci(n):
+    # todo
+    return 0
+
+
+def fibonacci_recursive(n):
+    # todo
     return 0
