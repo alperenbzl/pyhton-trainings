@@ -41,6 +41,5 @@ fib8 = Emath.fibonacci_recursive(9)
 fib9 = Emath.fibonacci(0)
 fib10 = Emath.fibonacci(3)
 fib11 = Emath.fibonacci(6)
-fib12 = Emath.fibonacci(9)
-
-
+fib12 = Emath.fibonacci(10)  # 55
+print(fib12)
