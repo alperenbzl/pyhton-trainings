@@ -33,3 +33,14 @@ fib1 = Emath.fibonacci(0)  # 0 0
 fib2 = Emath.fibonacci(3)  # 0,1,1 1
 fib3 = Emath.fibonacci(6)  # 0,1,1,2,3,5 5
 fib4 = Emath.fibonacci(9)  # 0,1,1,2,3,5,8,13,21 21
+fib5 = Emath.fibonacci_recursive(0)
+fib6 = Emath.fibonacci_recursive(3)
+print(fib6)
+fib7 = Emath.fibonacci_recursive(6)
+fib8 = Emath.fibonacci_recursive(9)
+fib9 = Emath.fibonacci(0)
+fib10 = Emath.fibonacci(3)
+fib11 = Emath.fibonacci(6)
+fib12 = Emath.fibonacci(9)
+
+

@@ -71,9 +71,30 @@ def factorial_recursive(n):
 
 def fibonacci(n):
     # todo
-    return 0
+    if n<=1:
+        return n
+    toplam=0
+    for i in range (0,n):
+        if (i==n-2):
+            toplam=toplam+i
+        if (i==n-1):
+            toplam=toplam+i
+            return toplam                
+
+
 
 
 def fibonacci_recursive(n):
     # todo
-    return 0
+    if n <= 1:
+        return n
+    else: 
+        return  fibonacci_recursive(n-1) + fibonacci_recursive(n-2)
+
+result = fibonacci_recursive(4)
+print(result)
+result = fibonacci(6)
+print(result)
+
+
+
